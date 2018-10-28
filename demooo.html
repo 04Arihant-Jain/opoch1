@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<style>
+#leftside > img { display: none; }
+/* Desktop*/
+@media screen and (max-width:  500px) {
+.navbar-nav  { display: none; }
+#leftside > img { display: block; }
+}
+
+</style>
+<link rel="stylesheet" href="css/try.css" type="text/css">
+
+</head>
+<body>
+<div class="container topbar">
+  <div class="row">
+<nav class="navbar navbar-expand-sm  navbar-dark fixed-top" style="
+
+height: 107px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+  <!-- Brand -->
+
+  <a class="navbar-brand" href="#">
+    <img src="image/TYPE LOGO.png" style="width:152.2px;height:72.1px;margin-top:17px;margin-left:113px;">
+  </a>
+
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link " href="#Wallet" style="
+width: 178px;
+height: 30px;
+margin-top:20px;
+
+font-family: Gotham;
+line-height: 20px;
+font-size: 16px;
+text-align: center;
+color: #000000;">
+Wallet</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link" href="#Market" style="
+width: 178px;
+height: 30px;
+margin-top:20px;
+
+font-family: Gotham;
+line-height: 20px;
+font-size: 16px;
+text-align: center;
+
+color: #000000;">Markets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="
+width: 178px;
+height: 30px;
+margin-top:20px;
+
+font-family: Gotham;
+line-height: 20px;
+font-size: 16px;
+text-align: center;
+
+color: #000000;">
+Lightning</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+          <img src="image/Component.png"   style="margin-top:25px; margin-left:100px;width: 18px;height: 12px;">
+      </a>
+
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+  <div id="leftside">
+   <img src="image/Component.png"  data-toggle="collapse" data-target="#demo" style="margin-top:30px;margin-left:20px;">
+    <div id="demo" class="collapse hide">
+      <a class="nav-link " href="opoch_wallet.html" style="margin-top:17px;margin-left:113px;">Wallet</a>
+      <a class="nav-link" href="opoch_market.html" style="margin-top:17px;margin-left:113px;">Markets</a>
+      <a class="nav-link" href="opoch_lighting.html" style="margin-top:17px;margin-left:113px;">Lightning</a>
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
+</nav>
+
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<div class="container index" style="height:900px;">
+  <div class="row">
+    <div class="col-lg-7" >
+      <a href="#" style="
+width: 575px;
+height: 69px;
+left: 109px;
+top: 500px;
+
+font-family: Gotham;
+line-height: 69px;
+font-size: 48px;
+text-align: center;
+letter-spacing: -0.03em;
+
+
+
+
+color: #3C88FF;"><b>Your gateway to Web3.0</b></a>
+      <ul style="list-style-type:none">
+        <li style="margin-top:10px;"><a href="#"><img src="image\Group (2).png"> Multi Currency Wallet </a>
+        </li>
+        <li style="margin-top:10px;"><a href="#"><img src="image\Group (2).png"> Fiat on-ramp</a>
+        </li>
+        <li style="margin-top:10px;"><a href="#"><img src="image\Group (2).png"> Global Information Market</a>
+        </li>
+        <li style="margin-top:10px;"><a href="#"><img src="image\Group (2).png"> Lightning Support</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row" style="margin-top:200px; margin-left:25px;">
+    <div class="col-lg-6">
+      <a href="#"> <img src="image\googlePlay.png" style="
+
+
+
+background: #FFFFFF;"> </a>
+      <a href="#"> <img src="image\appStore.png" height="" width=""> </a>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top:100px;margin-left:25px;">
+
+    <div class="col-lg-3">
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+
+    <div class="col-lg-4">
+      <button type="button" class="btn btn-primary">JOIN</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="container Wallet" id="Wallet"style="height:793px;background: #DEDEDE;">
+
+  <div class="row" >
+        <div class="col-lg-5" style="">
+           <img src="image\iPhoneX.png" style="position: absolute;
+width: 191.61px;
+height: 395.34px;
+left: 211.73px;
+top: 289.33px;
+"></img>
+        </div>
+
+      <div class="col-lg-7" style="margin-top:50px;">
+          <h2 style="position: absolute;
+width: 575px;
+height: 69px;
+left: 200px;
+
+font-family: Gotham;
+line-height: 69px;
+font-size: 48px;
+letter-spacing: -0.03em;
+
+color: #3C88FF;">
+<b>Opoch Wallet</b></h2>
+          <ul style="list-style-type:none">
+          <li><a href="#">Safe and Secure </a>
+          <p><font size="1">Cold Wallet,Offline Signature</p></li>
+          <li><a href="#">Multi-chain Wallet</a>
+          <p><font size="1">Bitcoin,Ethereum,ERC20 and others</p></li>
+          <li><a href="#">Simple and Faster Transfer</a>
+          <p><font size="1">Manage Contact Books,and easy transfer across globe</p></li>
+          <li><a href="#">Social Recovery</a>
+          <p><font size="1">Recover private key securely</p></li>
+        </ul>
+        </div>
+      </div>
+
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<div class="centered" style="  position: absolute;
+left: 150px;
+font-family: Gotham;
+line-height: 69px;
+font-size: 48px;
+letter-spacing: -0.03em;
+
+color: #3C88FF;
+transform: translate(50%, 50%);">Participate in Global<br>Information Market</div>
+</div>
+
+<div class="container Market" id="Market" style="height:793px;">
+
+  <img src="image\world-map-146505_1280.jpg" style="height:654px;margin-top:113px;">
+
+
+
+<div style="height:352px;">
+  <div class="footer">
+    <div class="row">
+      <div class="col-lg-4">
+
+        <a href="#" style="
+height: 71px;
+left: 96px;
+
+
+font-family: Gotham;
+line-height: 20px;
+font-size: 20px;
+
+"><b> Opoch @ 2018 Merkle Lab Pte. Ltd.</b> </a>
+      </div>
+
+       <div class="col-lg-4" style="
+height: 20px;
+left: 100px;
+
+font-family: Gotham;
+line-height: 20px;
+font-size: 20px;
+
+color: #000000;
+
+">
+            <ul style="list-style-type:none">
+              <li style=""><a href="#">Wallet</a></li>
+              <li style="margin-top:50px;"><a href="#">Markets</a></li>
+              <li style="margin-top:50px;"><a href="#">Lightning Networks</a></li>
+            </ul>
+          </div>
+
+      <div class="col-lg-4" style="width: 360px;
+height: 20px;
+
+font-family: Gotham;
+line-height: 20px;
+font-size: 20px;
+
+color: #000000;
+">
+            <ul style="list-style-type:none">
+              <li style=""><a href="#">About_Us</a></li>
+              <li style="margin-top:50px;"><a href="#">Dawn</a></li>
+              <li style="margin-top:50px;"><a href="#">Team</a></li>
+              <li style="margin-top:50px;"><a href="#">Carrers</a></li>
+              <li style="margin-top:50px;"><a href="#">Blogs</a></li>
+            </ul>
+      </div>
+
+    </div>
+
+
+  <div class="row">
+      <div class="col-lg-4" style="margin-top:150px;margin-left:80px;">
+        <a href="#" ><img src="image\Medium.png" height="" width=""></a>
+        <a href="#"><img src="image\Twitter.png" height="" width=""></a>
+        <a href="#"><img src="image\Telegram.png" height="" width=""></a>
+        <a href="#"><img src="image\Reddit.png" height="" width=""></a>
+      </div>
+  </div>
+
+  <div class="row" style="margin-top:72px;margin-left:25px;">
+
+    <div class="col-lg-3" style="margin-left:40px;">
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+
+    <div class="col-lg-4">
+      <button type="button" class="btn btn-primary">JOIN</button>
+    </div>
+  </div>
+  </div>
+</div>
